@@ -14,6 +14,15 @@ public class BuilderDemo{
    cdType2.showItems();  
    
    CDType cdType3=cdBuilder.buildHyundaiCD();  
-   cdType3.showItems();  
+   cdType3.showItems();
+   
+   CDType cdType4=cdBuilder.buildAudiCD();  
+   cdType4.showItems();
+   
+   CDType cdType5=cdBuilder.buildMiniCooperCD();  
+   cdType5.showItems();
+
+   CDType cdType6=cdBuilder.buildFerrariCdType();  
+   cdType6.showItems();
  }  
 }
