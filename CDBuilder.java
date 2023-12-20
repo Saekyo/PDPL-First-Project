@@ -1,17 +1,17 @@
 public class CDBuilder {  
-                  public CDType buildSonyCD(){   
+                  public CDType buildHondaCD(){   
                      CDType cds=new CDType();  
-                     cds.addItem(new Sony());  
+                     cds.addItem(new Honda());  
                      return cds;  
               }  
-              public CDType buildSamsungCD(){  
+              public CDType buildMitsubishiCD(){  
              CDType cds=new CDType();  
-             cds.addItem(new Samsung());  
+             cds.addItem(new Mitsubishi());  
              return cds;  
               }
-              public CDType buildPolytronCD(){  
+              public CDType buildHyundaiCD(){  
              CDType cds=new CDType();  
-             cds.addItem(new Polytron());  
+             cds.addItem(new Hyundai());  
              return cds;  
               }
 
