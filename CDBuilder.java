@@ -39,4 +39,22 @@ public class CDBuilder {
              return cds;  
               }
 
+              public CDType buildFerrariCD(){  
+             CDType cds=new CDType();  
+             cds.addItem(new Ferrari());  
+             return cds;  
+              }
+
+              public CDType buildAudiCD(){  
+             CDType cds=new CDType();  
+             cds.addItem(new Audi());  
+             return cds;  
+              }
+
+              public CDType buildMiniCooperCD(){  
+             CDType cds=new CDType();  
+             cds.addItem(new MiniCooper());  
+             return cds;  
+              }
+
 }// End of the CDBuilder class.

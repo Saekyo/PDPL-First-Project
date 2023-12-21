@@ -1,15 +1,19 @@
 public class Ferrari extends Company{  
     @Override  
         public String price(){   
-                        return "RP. 5.500.000.000";  
+                        return "Rp. 265.000.000";  
       }  
-    @Override  
-    public int year()
-    {
-        return 2023;
-    }
+      @Override  
+      public int year()
+      {
+          return 2020;
+      }
+       @Override  
+        public String transmisi(){   
+                        return "Manual";  
+      }
     @Override  
     public String pack(){  
-             return "Ferrari Purosangue";  
+             return "Ferrari";  
         }         
-}//End of the Polytron class. 
+}//End of the Sony class. 
