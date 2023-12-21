@@ -1,19 +1,19 @@
-public class Honda extends Company{  
+public class Wuling extends Company{  
     @Override  
         public String price(){   
-                        return "Rp. 265.000.000";  
+                        return "Rp. 300.000.000";  
       }  
       @Override  
       public int year()
       {
-          return 2020;
+          return 2021;
       }
        @Override  
         public String transmisi(){   
-                        return "Manual";  
+                        return "Automatic";  
       }
     @Override  
     public String pack(){  
-             return "HONDA HR-V";  
+             return "WULING ALMAZ";  
         }         
 }//End of the Sony class. 

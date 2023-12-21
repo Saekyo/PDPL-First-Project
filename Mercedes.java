@@ -1,19 +1,19 @@
-public class Honda extends Company{  
+public class Mercedes extends Company{  
     @Override  
         public String price(){   
-                        return "Rp. 265.000.000";  
+                        return "Rp. 400.000.000";  
       }  
       @Override  
       public int year()
       {
-          return 2020;
+          return 2017;
       }
        @Override  
         public String transmisi(){   
-                        return "Manual";  
+                        return "Automatic";  
       }
     @Override  
     public String pack(){  
-             return "HONDA HR-V";  
+             return "MERCEDES-BENZ C200";  
         }         
 }//End of the Sony class. 

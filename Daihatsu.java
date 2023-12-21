@@ -1,12 +1,12 @@
-public class Honda extends Company{  
+public class Daihatsu extends Company{  
     @Override  
         public String price(){   
-                        return "Rp. 265.000.000";  
+                        return "Rp. 140.000.000";  
       }  
       @Override  
       public int year()
       {
-          return 2020;
+          return 2023;
       }
        @Override  
         public String transmisi(){   
@@ -14,6 +14,6 @@ public class Honda extends Company{
       }
     @Override  
     public String pack(){  
-             return "HONDA HR-V";  
+             return "DAIHATSU SIGRA 2023";  
         }         
 }//End of the Sony class. 

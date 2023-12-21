@@ -1,20 +1,20 @@
-public class Hyundai extends Company{  
+public class Toyota extends Company{  
     @Override  
         public String price(){   
-                        return "RP. 700.000.000";  
+                        return "RP. 352.000.000";  
       }  
     @Override  
     public int year()
     {
-        return 2023;
+        return 2016;
     }
 
     @Override  
     public String transmisi(){   
-                    return "Manual";  
+                    return "Automatic";  
   }
     @Override  
     public String pack(){  
-             return "HYUNDAI IONIQ 5";  
+             return "TOYOTA FORTUNER";  
         }         
 }//End of the Polytron class. 

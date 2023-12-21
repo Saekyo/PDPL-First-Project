@@ -15,4 +15,28 @@ public class CDBuilder {
              return cds;  
               }
 
+              public CDType buildToyotaCD(){  
+             CDType cds=new CDType();  
+             cds.addItem(new Toyota());  
+             return cds;  
+              }
+
+              public CDType buildDaihatsuCD(){  
+             CDType cds=new CDType();  
+             cds.addItem(new Daihatsu());  
+             return cds;  
+              }
+
+               public CDType buildWulingCD(){  
+             CDType cds=new CDType();  
+             cds.addItem(new Wuling());  
+             return cds;  
+              }
+
+              public CDType buildMercedesCD(){  
+             CDType cds=new CDType();  
+             cds.addItem(new Mercedes());  
+             return cds;  
+              }
+
 }// End of the CDBuilder class.

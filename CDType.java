@@ -18,8 +18,9 @@ public class CDType {
              public void showItems(){   
               for (Packing packing : items){ 
              System.out.print(packing.pack());  
-             System.out.print(", Tahun : "+packing.year());
-             System.out.println(", Harga : "+packing.price()); 
+             System.out.print("| Tahun : "+packing.year());
+             System.out.print("| Type : "+packing.transmisi());
+             System.out.println("| Harga : "+packing.price()); 
           }       
             }     
 }//End of the CDType class.

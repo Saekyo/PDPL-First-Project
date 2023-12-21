@@ -8,6 +8,11 @@ public class Mitsubishi extends Company {
     {
         return 2023;
     }
+
+    @Override  
+    public String transmisi(){   
+                    return "Manual";  
+  }
     @Override  
     public String pack(){  
              return "MITSUBISHI XPANDER";  
