@@ -1,4 +1,5 @@
 public class Audi extends Company{  
+    //Mengoveride dari class Company
     @Override  
         public String price(){   
                         return "Rp. 265.000.000";  
@@ -16,4 +17,4 @@ public class Audi extends Company{
     public String pack(){  
              return "Audi";  
         }         
-}//End of the Sony class. 
+}//End of the Audi class. 

@@ -1,4 +1,5 @@
 public class Wuling extends Company{  
+    //Mengoveride dari class Company
     @Override  
         public String price(){   
                         return "Rp. 300.000.000";  
@@ -16,4 +17,4 @@ public class Wuling extends Company{
     public String pack(){  
              return "WULING ALMAZ";  
         }         
-}//End of the Sony class. 
+}//End of the Wuling class. 

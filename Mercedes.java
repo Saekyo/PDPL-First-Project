@@ -1,4 +1,5 @@
 public class Mercedes extends Company{  
+    //Mengoveride dari class Company
     @Override  
         public String price(){   
                         return "Rp. 400.000.000";  
@@ -16,4 +17,4 @@ public class Mercedes extends Company{
     public String pack(){  
              return "MERCEDES-BENZ C200";  
         }         
-}//End of the Sony class. 
+}//End of the Mercedes class. 

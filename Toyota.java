@@ -1,4 +1,5 @@
-public class Toyota extends Company{  
+public class Toyota extends Company{ 
+  //Mengoveride dari class Company
     @Override  
         public String price(){   
                         return "RP. 352.000.000";  
@@ -17,4 +18,4 @@ public class Toyota extends Company{
     public String pack(){  
              return "TOYOTA FORTUNER";  
         }         
-}//End of the Polytron class. 
+}//End of the Toyota class. 

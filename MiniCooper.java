@@ -1,4 +1,5 @@
-public class MiniCooper extends Company{  
+public class MiniCooper extends Company{ 
+    //Mengoveride dari class Company 
     @Override  
         public String price(){   
                         return "Rp. 265.000.000";  
@@ -16,4 +17,4 @@ public class MiniCooper extends Company{
     public String pack(){  
              return "MiniCooper";  
         }         
-}//End of the Sony class. 
+}//End of the MiniCooper class. 

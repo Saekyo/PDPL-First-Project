@@ -1,4 +1,5 @@
 public class Mitsubishi extends Company {  
+    //Mengoveride dari class Company
     @Override  
         public String price(){   
                         return "Rp. 250.000.000";  
@@ -17,4 +18,4 @@ public class Mitsubishi extends Company {
     public String pack(){  
              return "MITSUBISHI XPANDER";  
         }         
-}//End of the Samsung class.
+}//End of the Mitsubishi class.

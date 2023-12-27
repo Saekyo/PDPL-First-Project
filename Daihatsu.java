@@ -1,4 +1,5 @@
-public class Daihatsu extends Company{  
+public class Daihatsu extends Company{ 
+    //Mengoveride dari class Company 
     @Override  
         public String price(){   
                         return "Rp. 140.000.000";  
@@ -16,4 +17,4 @@ public class Daihatsu extends Company{
     public String pack(){  
              return "DAIHATSU SIGRA 2023";  
         }         
-}//End of the Sony class. 
+}//End of the Daihatsu class. 

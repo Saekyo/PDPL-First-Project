@@ -1,4 +1,5 @@
 public class Suzuki extends Company {  
+    //Mengoveride dari class Company
     @Override  
         public String price(){   
                         return "5200000";  
@@ -17,4 +18,4 @@ public class Suzuki extends Company {
     public String pack(){  
              return "MITSUBISHI XPANDER";  
         }         
-}//End of the Samsung class.
+}//End of the Suzuki class.

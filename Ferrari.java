@@ -1,4 +1,5 @@
-public class Ferrari extends Company{  
+public class Ferrari extends Company{ 
+    //Mengoveride dari class Company 
     @Override  
         public String price(){   
                         return "Rp. 265.000.000";  
@@ -16,4 +17,4 @@ public class Ferrari extends Company{
     public String pack(){  
              return "Ferrari";  
         }         
-}//End of the Sony class. 
+}//End of the Ferrari class. 

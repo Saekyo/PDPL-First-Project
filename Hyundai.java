@@ -1,4 +1,5 @@
 public class Hyundai extends Company{  
+  //Mengoveride dari class Company
     @Override  
         public String price(){   
                         return "RP. 700.000.000";  
@@ -17,4 +18,4 @@ public class Hyundai extends Company{
     public String pack(){  
              return "HYUNDAI IONIQ 5";  
         }         
-}//End of the Polytron class. 
+}//End of the Hyundai class. 
