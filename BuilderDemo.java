@@ -1,11 +1,13 @@
 public class BuilderDemo{  
  public static void main(String args[]){  
+  //Output welcome message dan daftar harga
   System.out.print("Welcome to IndoJaya Mobil!"); 
   System.out.print("\n");
   System.out.print("Berikut adalah list harga yang kami tawarkan"); 
   System.out.print("\n");
   System.out.print("============================================================"); 
   System.out.print("\n"); 
+  //Membuat dan menampilkan objek CDBuilder
    CDBuilder cdBuilder=new CDBuilder();  
    CDType cdType1=cdBuilder.buildHondaCD();  
    cdType1.showItems();  

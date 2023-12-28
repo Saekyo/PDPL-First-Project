@@ -5,16 +5,19 @@ public class CDType {
              public void addItem(Packing packs) {    
                     items.add(packs);  
              }  
+             //Memanggil method price() dari setiap objek Packing
              public void getCost(){  
               for (Packing packs : items) {  
                         packs.price();  
               }   
              }             
+             //Memanggil method year() dari setiap objek Packing
              public void getYear(){  
               for (Packing packs : items) {  
                         packs.year();  
               }   
              }
+             //Menampilkan informasi terkait setiap item ke layar 
              public void showItems(){   
               for (Packing packing : items){ 
              System.out.print(packing.pack());  

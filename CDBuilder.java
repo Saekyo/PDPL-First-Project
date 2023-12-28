@@ -1,5 +1,6 @@
 public class CDBuilder {  
-                  public CDType buildHondaCD(){   
+              //Menginisialisasi objec CDType 
+              public CDType buildHondaCD(){   
                      CDType cds=new CDType();  
                      cds.addItem(new Honda());  
                      return cds;  
